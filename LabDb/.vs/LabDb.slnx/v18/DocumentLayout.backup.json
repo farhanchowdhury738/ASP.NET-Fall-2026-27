@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\ef\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\ef\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LabDb\\EF\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\AppDbContext.cs",
+              "RelativeToolTip": "LabDb\\EF\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T16:15:25.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\Class.cs",
+              "RelativeDocumentMoniker": "LabDb\\EF\\Class.cs",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\Class.cs",
+              "RelativeToolTip": "LabDb\\EF\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T16:15:15.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\appsettings.json",
+              "RelativeDocumentMoniker": "LabDb\\appsettings.json",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\appsettings.json",
+              "RelativeToolTip": "LabDb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-26T16:13:36.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1007,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
