@@ -1,17 +1,24 @@
 # Lab (Without DB)
 
 A simple ASP.NET Core MVC project to manage courses using a List instead of a database.
+<table>
+    <tr>
+        <th>Features</th>
+        <th>Validation</th>
+    </tr>
+    <tr>
+        <td>
+            <p>Create, Read, Update, Delete</p>
+            <p>Duplicate ID checking.</p>
+        </td>
+        <td>
+            <p>Course hours (1–4)</p>
+            <p>Course Code (CSE1101)</p>
+        </td>
+    </tr>
+</table>
 
-Features
-- Create, Read, Update, Delete (CRUD).
-- Duplicate ID checking.
-
-Validation
-- Course hours (1–4)
-- Course Code (CSE1101)
-- Fee range (5000–50000)
 #
-
 # LabDB (With Database)
 
 A simple ASP.NET Core MVC project to manage courses using Entity Framework Core and SQL Server.
