@@ -36,9 +36,9 @@ After that create Databse.
 ## 1. Install NuGet Packages
 
 ```bash
-Microsoft.EntityFrameworkCore.SqlServer
-Microsoft.EntityFrameworkCore.Design
-Microsoft.EntityFrameworkCore.Tools
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
 
 ## 2. Configure appsettings.json
