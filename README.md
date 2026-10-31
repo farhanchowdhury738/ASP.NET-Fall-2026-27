@@ -25,11 +25,11 @@ Configure appsettings.json
        ↓
 Create EF → AppDbContext.cs
        ↓
-Create Model
+Configure Program.cs
+       ↓
+Create Model, Controller, View
        ↓
 Register Model → AppDbContext.cs
-       ↓
-Configure Program.cs
 ```
 After that create Databse.
 
@@ -49,7 +49,7 @@ System.Security.Cryptography.Pkcs
     "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=UserManagement;Trusted_Connection=True;TrustServerCertificate=True",
     "AppDbContext": "Server=(localdb)\\mssqllocaldb;Database=AppDbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
-}
+},
 ```
 
 ## 3. Create AppDbContext.cs
@@ -64,18 +64,44 @@ public class AppDbContext : DbContext
     }
 }
 ```
-
-## 4. Register Model in AppDbContext
-```csharp
-public DbSet<Student> student { get; set; }
-```
-
-## 5. Configure Program.cs
+## 4. Configure Program.cs
 ```csharp
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 ```
+
+## 5.1 Create Model (Student)
+```csharp
+[Table("users")]
+    public class Student
+    {
+        public int id { get; set; }
+        public string? name { get; set; }
+        public string? department { get; set; }
+        public double cgpa { get; set; }
+    }
+```
+## 5.2 Create Controller (StudentController)
+```csharp
+private readonly AppDbContext _context;
+public StudentController(AppDbContext context)
+{
+    _context = context;
+}
+public IActionResult Index()
+{
+    var students = _context.student.ToList();
+    return View(students);
+}
+```
+
+## 6. Register Model in AppDbContext
+```csharp
+public DbSet<Student> student { get; set; }
+```
+
+
 
 
 
