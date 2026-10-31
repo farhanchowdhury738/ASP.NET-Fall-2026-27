@@ -55,7 +55,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
     "AppDbContext": "Server=FARHAN\\SQLEXPRESS;Database=AppDbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
   },
 ```
-Change your server name!  
+### Now create Database, and create table (users). insert some values manually. 
 
 ## 3. Create AppDbContext.cs
 ```csharp
@@ -100,7 +100,7 @@ public IActionResult Index()
 
 ## 5.3 Create View 
 ```csharp
-<table>
+<table class="table">
     <tr>
         <th>Name</th>
         <th>Department</th>
