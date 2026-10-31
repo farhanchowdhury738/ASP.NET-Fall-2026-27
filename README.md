@@ -38,7 +38,7 @@ Create Model, Controller, View
        ↓
 Register Model → AppDbContext.cs
 ```
-After that create Databse.
+### After that create Databse.
 
 ## 1. Install NuGet Packages
 
@@ -55,6 +55,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
     "AppDbContext": "Server=FARHAN\\SQLEXPRESS;Database=AppDbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
   },
 ```
+Change your server name!  
 
 ## 3. Create AppDbContext.cs
 ```csharp
@@ -126,8 +127,17 @@ public DbSet<Student> student { get; set; }
 
 
 
+<h3 align="center">Need Help?</h3>
 
+<p align="center">
+  Have questions or facing an issue? Feel free to reach out. I'd be happy to help!
+</p>
 
+<p align="center">
+  <a href="https://farhanchowdhury.xyz/contact">
+    <img src="https://img.shields.io/badge/Click_Here_to_Contact_Me-0D6EFD?style=for-the-badge" alt="Contact Me">
+  </a>
+</p>
 
 
 
