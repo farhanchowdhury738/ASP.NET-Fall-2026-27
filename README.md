@@ -39,29 +39,23 @@ After that create Databse.
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.Tools
-System.Security.Cryptography.Pkcs
 ```
 
 ## 2. Configure appsettings.json
 ```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=UserManagement;Trusted_Connection=True;TrustServerCertificate=True",
-    "AppDbContext": "Server=(localdb)\\mssqllocaldb;Database=AppDbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
-  }
-},
+"ConnectionStrings": {
+    "DefaultConnection": "Server=FARHAN\\SQLEXPRESS;Database=section_a;Trusted_Connection=True;TrustServerCertificate=True",
+    "AppDbContext": "Server=FARHAN\\SQLEXPRESS;Database=AppDbContext;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
 ```
 
 ## 3. Create AppDbContext.cs
 ```csharp
 using Microsoft.EntityFrameworkCore;
-
 public class AppDbContext : DbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options)
-        : base(options)
-    {
-    }
+    public AppDbContext(DbContextOptions<AppDbContext> options): base(options)
+    {}
 }
 ```
 ## 4. Configure Program.cs
@@ -94,6 +88,25 @@ public IActionResult Index()
     var students = _context.student.ToList();
     return View(students);
 }
+```
+
+## 5.3 Create View 
+```csharp
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>CGPA</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.name</td>
+            <td>@student.department</td>
+            <td>@student.cgpa</td>
+        </tr>
+    }
+</table>
 ```
 
 ## 6. Register Model in AppDbContext
