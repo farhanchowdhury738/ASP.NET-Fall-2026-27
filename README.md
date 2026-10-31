@@ -39,6 +39,7 @@ After that create Databse.
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.Tools
+System.Security.Cryptography.Pkcs
 ```
 
 ## 2. Configure appsettings.json
