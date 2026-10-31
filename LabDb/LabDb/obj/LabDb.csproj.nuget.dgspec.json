@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\farha\\Downloads\\Dotnet\\ASP.NET-Fal-2026-27\\LabDb\\LabDb\\LabDb.csproj": {}
+    "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\LabDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\farha\\Downloads\\Dotnet\\ASP.NET-Fal-2026-27\\LabDb\\LabDb\\LabDb.csproj": {
+    "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\LabDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\farha\\Downloads\\Dotnet\\ASP.NET-Fal-2026-27\\LabDb\\LabDb\\LabDb.csproj",
+        "projectUniqueName": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\LabDb.csproj",
         "projectName": "LabDb",
-        "projectPath": "C:\\Users\\farha\\Downloads\\Dotnet\\ASP.NET-Fal-2026-27\\LabDb\\LabDb\\LabDb.csproj",
+        "projectPath": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\LabDb.csproj",
         "packagesPath": "C:\\Users\\farha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\farha\\Downloads\\Dotnet\\ASP.NET-Fal-2026-27\\LabDb\\LabDb\\obj\\",
+        "outputPath": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

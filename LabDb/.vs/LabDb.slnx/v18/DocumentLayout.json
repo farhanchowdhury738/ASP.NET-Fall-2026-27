@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\ef\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\ef\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\ef\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|c:\\users\\farha\\downloads\\dotnet\\labdb\\labdb\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E2CC0FF-95BC-2E60-17F4-0A8B29801E1F}|LabDb\\LabDb.csproj|solutionrelative:labdb\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "LabDb\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "LabDb\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T07:30:36.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "LabDb\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "LabDb\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T07:24:25.283Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -43,78 +57,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "LabDb\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "LabDb\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-26T16:23:00.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "LabDb\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Controllers\\StudentController.cs",
               "RelativeToolTip": "LabDb\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv1QAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-26T16:22:09.512Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "LabDb\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\Models\\Student.cs",
-              "RelativeToolTip": "LabDb\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T16:20:24.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LabDb\\EF\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\AppDbContext.cs",
-              "RelativeToolTip": "LabDb\\EF\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T16:15:25.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\Class.cs",
-              "RelativeDocumentMoniker": "LabDb\\EF\\Class.cs",
-              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\EF\\Class.cs",
-              "RelativeToolTip": "LabDb\\EF\\Class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T16:15:15.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\appsettings.json",
-              "RelativeDocumentMoniker": "LabDb\\appsettings.json",
-              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\LabDb\\LabDb\\appsettings.json",
-              "RelativeToolTip": "LabDb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-26T16:13:36.293Z"
             }
           ]
         },
