@@ -1,0 +1,89 @@
+﻿
+@model Lab.Models.Course
+
+@{
+    ViewData["Title"] = "Create Course";
+}
+
+<h2>Create Course</h2>
+
+<a asp-action="Index" class="btn btn-secondary">Back</a>
+
+<form asp-action="Create" asp-controller="Course" method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <table class="table">
+
+        <tr>
+            <td>
+                <label asp-for="Name">Name:</label>
+            </td>
+            <td>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label asp-for="email">Email:</label>
+            </td>
+            <td>
+                <input asp-for="email" type="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label asp-for="courseCode">Course Code:</label>
+            </td>
+            <td>
+                <input asp-for="courseCode" class="form-control" />
+                <span asp-validation-for="courseCode" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label asp-for="CourseHours">Course Hours:</label>
+            </td>
+            <td>
+                <input asp-for="CourseHours" type="number" class="form-control" />
+                <span asp-validation-for="CourseHours" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label asp-for="SemesterFee">Semester Fee:</label>
+            </td>
+            <td>
+                <input asp-for="SemesterFee" type="number" step="0.01" class="form-control" />
+                <span asp-validation-for="SemesterFee" class="text-danger"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit" class="btn btn-success">
+                    Create
+                </button>
+
+                <a asp-action="Index" class="btn btn-secondary">
+                    Cancel
+                </a>
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

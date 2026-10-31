@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div>
+    <a href="@Url.Action("Index", "Student")" class="btn btn-secondary">Back</a>
+</div>
+
+<h1>Create Student</h1>
+
+<form>
+    <table>
+        <tr>
+            <td><label for="Name">Name:</label></td>
+            <td><input type="text" id="Name" name="Name" /></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input required type="email" id="Email" name="Email" /></td>
+        </tr>
+    </table>
+    <button type="submit">Create</button>
+</form>
