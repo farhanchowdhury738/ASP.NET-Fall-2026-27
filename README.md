@@ -1,24 +1,14 @@
-# \# Lab
+# Lab (Without DB)
 
-# 
+A simple ASP.NET Core MVC project to manage courses using a List instead of a database.
 
-# A simple ASP.NET Core MVC project for managing courses without a database, Use List of Array.
+Features
+- Create, Read, Update, Delete (CRUD).
+- Duplicate ID checking.
 
-# 
+Validation
+- Course hours (1–4)
+- Course Code (CSE1101)
+- Fee range (5000–50000)
 
-# \## Features
-
-# \- Create, Read, Update, Delete (CRUD).
-
-# \- Duplicate name checking.
-
-# 
-
-# \## Validation
-
-# \- Course hours (1–4).
-
-# \- Fee range (5000–50000).
-
-# 
 
