@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|c:\\users\\farha\\downloads\\dotnet\\lab\\lab\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|solutionrelative:lab\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|c:\\users\\farha\\downloads\\dotnet\\lab\\lab\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|solutionrelative:lab\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|c:\\users\\farha\\downloads\\dotnet\\lab\\lab\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|solutionrelative:lab\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|c:\\users\\farha\\downloads\\dotnet\\lab\\lab\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|solutionrelative:lab\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|c:\\users\\farha\\downloads\\dotnet\\lab\\lab\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8167B33E-D4A6-0432-CEC4-B3B1F80245EE}|Lab\\Lab.csproj|solutionrelative:lab\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "Lab\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T06:36:39.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "Lab\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T06:30:15.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Lab\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Models\\Course.cs",
+              "RelativeToolTip": "Lab\\Models\\Course.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswF0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T06:28:48.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Lab\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Lab\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T06:28:12.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\Lab\\Lab\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Lab\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAADwvzUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-27T07:06:08.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1007,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
