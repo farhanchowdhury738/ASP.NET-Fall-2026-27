@@ -10,5 +10,6 @@ namespace LabDb.EF
         }
 
         public DbSet<Student> student { get; set; }
+        public DbSet<Employee> employee { get; set; }
     }
 }

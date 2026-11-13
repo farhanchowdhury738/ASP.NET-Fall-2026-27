@@ -1,0 +1,28 @@
+﻿@model IEnumerable<DbP.Models.Student>
+
+<h3>Department Filter</h3>
+
+<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+
+<form asp-action="Filter" method="get" class="d-flex gap-2 my-3">
+    <select name="dept" asp-items="ViewBag.Departments" class="form-select w-auto">
+        <option value="">All Departments</option>
+    </select>
+    <button class="btn btn-primary">Filter</button>
+</form>
+
+<table class="table table-bordered table-hover">
+    <tr class="table-primary">
+        <th>Name</th>
+        <th>Department</th>
+        <th>CGPA</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.name</td>
+            <td>@student.department</td>
+            <td>@student.cgpa</td>
+        </tr>
+    }
+</table>

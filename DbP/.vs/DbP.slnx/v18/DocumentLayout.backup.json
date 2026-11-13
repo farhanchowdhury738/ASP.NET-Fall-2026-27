@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5730CFED-2562-D3F0-7A94-9524A22AD8B5}|DbP\\DbP.csproj|c:\\users\\farha\\downloads\\dotnet\\dbp\\dbp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5730CFED-2562-D3F0-7A94-9524A22AD8B5}|DbP\\DbP.csproj|solutionrelative:dbp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5730CFED-2562-D3F0-7A94-9524A22AD8B5}|DbP\\DbP.csproj|c:\\users\\farha\\downloads\\dotnet\\dbp\\dbp\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5730CFED-2562-D3F0-7A94-9524A22AD8B5}|DbP\\DbP.csproj|solutionrelative:dbp\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5730CFED-2562-D3F0-7A94-9524A22AD8B5}|DbP\\DbP.csproj|c:\\users\\farha\\downloads\\dotnet\\dbp\\dbp\\views\\student\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5730CFED-2562-D3F0-7A94-9524A22AD8B5}|DbP\\DbP.csproj|solutionrelative:dbp\\views\\student\\viewall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\DbP\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "DbP\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\DbP\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "DbP\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwCsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T13:40:42.861Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\DbP\\Views\\Student\\Update.cshtml",
+              "RelativeDocumentMoniker": "DbP\\Views\\Student\\Update.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\DbP\\Views\\Student\\Update.cshtml",
+              "RelativeToolTip": "DbP\\Views\\Student\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T14:06:04.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\DbP\\Views\\Student\\ViewAll.cshtml",
+              "RelativeDocumentMoniker": "DbP\\Views\\Student\\ViewAll.cshtml",
+              "ToolTip": "C:\\Users\\farha\\Downloads\\Dotnet\\DbP\\DbP\\Views\\Student\\ViewAll.cshtml",
+              "RelativeToolTip": "DbP\\Views\\Student\\ViewAll.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T14:03:09.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1007,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

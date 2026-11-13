@@ -1,0 +1,33 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Department Average Salary";
+}
+
+<h2>Department Average Salary</h2>
+
+<div class="text-start mb-3">
+    <a href="@Url.Action("Index", "Employee")"
+       class="btn btn-secondary">
+        ← Back to Main Menu
+    </a>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Department</th>
+            <th>Average Salary</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@dept.Department</td>
+                <td>@(((double)dept.AverageSalary).ToString("N2"))</td>
+            </tr>
+        }
+    </tbody>
+</table>

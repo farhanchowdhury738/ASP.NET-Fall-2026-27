@@ -1,0 +1,21 @@
+﻿@model DbP.Models.Student
+
+<h3>Edit Student</h3>
+
+<a asp-action="ViewAll" class="btn btn-secondary btn-sm">Back</a>
+
+<form asp-action="Update" method="post" class="mt-3">
+
+    <input type="hidden" asp-for="id" />
+
+    <label>Name</label>
+    <input asp-for="name" class="form-control mb-2" />
+
+    <label>Department</label>
+    <input asp-for="department" class="form-control mb-2" />
+
+    <label>CGPA</label>
+    <input asp-for="cgpa" class="form-control mb-2" />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

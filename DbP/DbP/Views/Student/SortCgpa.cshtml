@@ -1,0 +1,27 @@
+﻿@model IEnumerable<DbP.Models.Student>
+
+<h3>CGPA Sort</h3>
+
+<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+
+<div class="my-3">
+    <a asp-action="SortCgpa" asp-route-sort="asc" class="btn btn-primary">Low to High</a>
+    <a asp-action="SortCgpa" asp-route-sort="desc" class="btn btn-success">High to Low</a>
+</div>
+
+<table class="table table-bordered table-hover">
+    <tr class="table-primary">
+        <th>Name</th>
+        <th>Department</th>
+        <th>CGPA</th>
+    </tr>
+
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.name</td>
+            <td>@student.department</td>
+            <td>@student.cgpa</td>
+        </tr>
+    }
+</table>

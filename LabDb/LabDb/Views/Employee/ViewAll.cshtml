@@ -1,0 +1,40 @@
+﻿@model IEnumerable<LabDb.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h2>Employee List</h2>
+
+<div class="text-start mb-3">
+    <a href="@Url.Action("Index", "Employee")"
+       class="btn btn-secondary">
+        ← Back to Main Menu
+    </a>
+</div>
+
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Experience (Years)</th>
+            <th>Joined At</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.EmpName</td>
+                <td>@emp.Department</td>
+                <td>@emp.Salary</td>
+                <td>@emp.ExperienceYears</td>
+                <td>@emp.JoinedAt.ToString("dd-MM-yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>

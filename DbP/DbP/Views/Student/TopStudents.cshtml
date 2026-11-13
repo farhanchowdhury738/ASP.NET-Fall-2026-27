@@ -1,0 +1,31 @@
+﻿@model IEnumerable<DbP.Models.Student>
+
+<h3>Top 5 Students (CGPA Wise)</h3>
+
+<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+
+<table class="table table-bordered table-hover mt-3">
+    <thead class="table-primary">
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>CGPA</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int rank = 1;
+        }
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@rank</td>
+                <td>@student.name</td>
+                <td>@student.department</td>
+                <td>@student.cgpa</td>
+            </tr>
+            rank++;
+        }
+    </tbody>
+</table>

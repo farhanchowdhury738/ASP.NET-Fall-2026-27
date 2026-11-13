@@ -1,0 +1,26 @@
+﻿@model IEnumerable<DbP.Models.Student>
+
+<h3>Search Student</h3>
+
+<a asp-action="Index" class="btn btn-secondary btn-sm">Back</a>
+
+<form asp-action="Search" method="get" class="d-flex gap-2 my-3">
+    <input type="text" name="keyword" placeholder="Search by name" class="form-control" />
+    <button class="btn btn-primary">Search</button>
+</form>
+
+<table class="table table-bordered table-hover">
+    <tr class="table-primary">
+        <th>Name</th>
+        <th>Department</th>
+        <th>CGPA</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.name</td>
+            <td>@student.department</td>
+            <td>@student.cgpa</td>
+        </tr>
+    }
+</table>
