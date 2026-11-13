@@ -37,15 +37,29 @@ var data = _context.employee
 return View(data);
 ```
 
-## 3. Sorts employees from highest salary to lowest salary.
+## 3. Groups employees based on their department.
 ```csharp
 var data = _context.employee
-    .OrderByDescending(e => e.Salary)
+    .GroupBy(e => e.Department)
     .ToList();
 return View(data);
 ```
 
-## 4. Selects only the employee name and salary.
+## 4. Retrieves the first employee or returns null if no record exists.
+```csharp
+var data = _context.employee
+    .FirstOrDefault();
+return View(data);
+```
+
+## 5. Retrieves the employee with a specific ID or returns null if no record exists.
+```csharp
+var data = _context.employee
+    .SingleOrDefault(e => e.EmpId == 5);
+return View(data);
+```
+
+## 6. Selects only the employee name and salary.
 ```csharp
 var data = _context.employee
     .Select(e => new
@@ -57,44 +71,7 @@ var data = _context.employee
 return View(data);
 ```
 
-## 5. Groups employees based on their department.
-```csharp
-var data = _context.employee
-    .GroupBy(e => e.Department)
-    .ToList();
-return View(data);
-```
-
-## 6. Retrieves all employees.
-```csharp
-var data = _context.employee
-    .ToList();
-return View(data);
-```
-
-## 7. Retrieves the first employee or returns null if no record exists.
-```csharp
-var data = _context.employee
-    .FirstOrDefault();
-return View(data);
-```
-
-## 8. Retrieves the employee with a specific ID or returns null if no record exists.
-```csharp
-var data = _context.employee
-    .SingleOrDefault(e => e.EmpId == 5);
-return View(data);
-```
-
-## 9. Counts the total number of employees.
-```csharp
-var data = _context.employee
-    .Count();
-
-return Content("Total Employees: " + data);
-```
-
-## 10. Calculates the total, average, highest, and lowest salary of all employees.
+## 7. Calculates the total, average, highest, and lowest salary of all employees.
 ```csharp
 var data = _context.employee
     .Sum(e => e.Salary)
