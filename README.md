@@ -18,84 +18,6 @@ A simple ASP.NET Core MVC project to manage courses using a List instead of a da
     </tr>
 </table>
 
-# 
-# MID TERM EXAM PRACTICE 12 LINQ
-
-## 1. Filters employees based on salary.
-```csharp
-var data = _context.employee
-    .Where(e => e.Salary > 50000)
-    .ToList();
-return View(data);
-```
-
-## 2. Sorts employees from highest salary to lowest salary.
-```csharp
-var data = _context.employee
-    .OrderBy(e => e.Salary)
-    .ToList();
-return View(data);
-```
-
-## 3. Groups employees based on their department.
-```csharp
-var data = _context.employee
-    .GroupBy(e => e.Department)
-    .ToList();
-return View(data);
-```
-
-## 4. Retrieves the first employee or returns null if no record exists.
-```csharp
-var data = _context.employee
-    .FirstOrDefault();
-return View(data);
-```
-
-## 5. Retrieves the employee with a specific ID or returns null if no record exists.
-```csharp
-var data = _context.employee
-    .SingleOrDefault(e => e.EmpId == 5);
-return View(data);
-```
-
-## 6. Selects only the employee name and salary.
-```csharp
-var data = _context.employee
-    .Select(e => new
-    {
-        e.EmpName,
-        e.Salary
-    })
-    .ToList();
-return View(data);
-```
-
-## 7. Calculates the total, average, highest, and lowest salary of all employees.
-```csharp
-var data = _context.employee
-    .Sum(e => e.Salary)
-    .Average(e => e.Salary)
-    .Max(e => e.Salary)
-    .Min(e => e.Salary)
-return Content("Total Salary: " + data);
-```
-
-## Quick Revision Table
-
-| Method | Purpose |
-|---|---|
-| Where() | Filtering |
-| OrderBy() | Ascending sorting |
-| OrderByDescending() | Descending sorting |
-| Select() | Selecting properties |
-| GroupBy() | Grouping data |
-| ToList() | Creating a list |
-| FirstOrDefault() | Getting the first record |
-| SingleOrDefault() | Getting a single record |
-| Count() | Counting records |
-
-
 #
 # LabDB (With Database)
 
@@ -219,6 +141,82 @@ public DbSet<Student> student { get; set; }
 
 
 
+# 
+# MID TERM EXAM PRACTICE LINQ
+
+## 1. Filters employees based on salary.
+```csharp
+var data = _context.employee
+    .Where(e => e.Salary > 50000)
+    .ToList();
+return View(data);
+```
+
+## 2. Sorts employees from highest salary to lowest salary.
+```csharp
+var data = _context.employee
+    .OrderBy(e => e.Salary)
+    .ToList();
+return View(data);
+```
+
+## 3. Groups employees based on their department.
+```csharp
+var data = _context.employee
+    .GroupBy(e => e.Department)
+    .ToList();
+return View(data);
+```
+
+## 4. Retrieves the first employee or returns null if no record exists.
+```csharp
+var data = _context.employee
+    .FirstOrDefault();
+return View(data);
+```
+
+## 5. Retrieves the employee with a specific ID or returns null if no record exists.
+```csharp
+var data = _context.employee
+    .SingleOrDefault(e => e.EmpId == 5);
+return View(data);
+```
+
+## 6. Selects only the employee name and salary.
+```csharp
+var data = _context.employee
+    .Select(e => new
+    {
+        e.EmpName,
+        e.Salary
+    })
+    .ToList();
+return View(data);
+```
+
+## 7. Calculates the total, average, highest, and lowest salary of all employees.
+```csharp
+var data = _context.employee
+    .Sum(e => e.Salary)
+    .Average(e => e.Salary)
+    .Max(e => e.Salary)
+    .Min(e => e.Salary)
+return Content("Total Salary: " + data);
+```
+
+## Quick Revision Table
+
+| Method | Purpose |
+|---|---|
+| Where() | Filtering |
+| OrderBy() | Ascending sorting |
+| OrderByDescending() | Descending sorting |
+| Select() | Selecting properties |
+| GroupBy() | Grouping data |
+| ToList() | Creating a list |
+| FirstOrDefault() | Getting the first record |
+| SingleOrDefault() | Getting a single record |
+| Count() | Counting records |
 
 
 
