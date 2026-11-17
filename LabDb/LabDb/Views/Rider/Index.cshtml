@@ -1,0 +1,28 @@
+﻿@model IEnumerable<dynamic>
+
+<h2>Rider Performance</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Avg Delivery</th>
+            <th>Avg Distance</th>
+            <th>Min Rating</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.name</td>
+                <td>@item.id</td>
+                <td>@item.AvgDelivery</td>
+                <td>@item.AvgDistance</td>
+                <td>@item.MinRating</td>
+            </tr>
+        }
+    </tbody>
+</table>

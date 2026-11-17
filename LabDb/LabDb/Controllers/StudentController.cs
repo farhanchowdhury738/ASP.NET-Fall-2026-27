@@ -13,7 +13,8 @@ namespace LabDb.Controllers
         }
         public IActionResult Index()
         {
-            var students = _context.student.ToList();
+            var students = _context.student
+                .ToList();
             return View(students);
         }
 
